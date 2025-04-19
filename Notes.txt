@@ -1,0 +1,11 @@
+# Azure Storage Lab - Notes
+
+Date: April 2025
+
+- Created resource group: RG-StorageLab
+- Created storage account: sargunstorage01 (LRS, Standard, East US)
+- Created blob container: mycontainer (Private)
+- Uploaded files using Azure Portal
+- Downloaded to test access
+- Changed access tier to 'Cool'
+- Added lifecycle rule: if last modified > 30 days → move to Cool tier
